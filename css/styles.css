@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: #fcfcfc;
+    color: #434455;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.nav-logo {
+    color: #2e2f42;
+}
+
+.nav-contacts {
+    color: #2e2f42;
+}
+
+.nav-portfolio {
+    color: #2e2f42;
+}
+
+.nav-studio {
+    color: #2e2f42;
+}
+
+.info-mail {
+    color: #2e2f42;
+}
+
+.info-tel {
+    color: #2e2f42;
+}
+
+.nav-studio:hover {
+    color: #404bff;
+}
+.nav-portfolio:hover {
+    color: #404bff;
+}
+.nav-contacts:hover {
+    color: #404bff;
+}
+.nav-studio:active {
+    color: #404bff;
+    text-decoration: underline;
+}
+
+.info-mail:hover {
+    color: #404bff;
+}
+
+.info-tel:hover {
+    color: #404bff;
+}
+
+.section1 {
+    background-color: #2e2f42;
+    color: #ffffff;
+}
+
+.section1-button {
+    background-color: #4d5ae5;
+    color: #ffffff;
+}
+
+.section2 {
+    background-color: #ffffff;
+}
+
+.section3 {
+    background-color: #f4f4fd;
+}
+
+.card-person {
+    background-color: #ffffff;
+}
+
+.portfolio-card {
+    background-color: #e7e9fc;
+}
+
+footer {
+    background-color: #2e2f42;
+    color: #ffffff;
+}
