@@ -1,12 +1,37 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    background-color: #fcfcfc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    background-color: #ffffff;
     color: #434455;
-    list-style-type: none;
 }
 
 a {
     text-decoration: none;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
 }
 
 header {
@@ -14,6 +39,17 @@ header {
 }
 
 .nav-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    color: #4d5ae5;
+
+}
+
+.span-studio {
     color: #2e2f42;
 }
 
@@ -77,6 +113,18 @@ header {
     background-color: #f4f4fd;
 }
 
+.title-sec3 {
+    text-align: center;
+}
+
+.section4 {
+    background-color: #ffffff;
+}
+
+.title-sec4 {
+    text-align: center;
+}
+
 .card-person {
     background-color: #ffffff;
 }
@@ -85,7 +133,21 @@ header {
     background-color: #e7e9fc;
 }
 
-footer {
+.footer {
     background-color: #2e2f42;
     color: #ffffff;
+}
+
+.fot-logo {
+    font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 3%;
+        color: #4d5ae5;
+}
+
+.fot-span-logo {
+    color: #2e2f42;
 }
