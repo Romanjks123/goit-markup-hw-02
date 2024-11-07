@@ -66,52 +66,38 @@ header {
     color: #2e2f42;
 }
 
-.nav-contacts {
+.nav-ul {
     color: #2e2f42;
 }
 
-.nav-portfolio {
-    color: #2e2f42;
-}
-
-.nav-studio {
-    color: #2e2f42;
-}
-
-.info-mail {
+.info-ul {
     color: #434455;
 }
 
-.info-tel {
-    color: #434455;
+.nav-ul:hover, .nav-ul:focus {
+    color: #404bbf;
 }
 
-.nav-studio:hover, .nav-studio:focus {
-    color: #404bbf;
-}
-.nav-portfolio:hover, .nav-portfolio:focus {
-    color: #404bbf;
-}
-.nav-contacts:hover, .nav-contacts:focus {
-    color: #404bbf;
-}
 
 .info {
     font-style: normal;
 }
 
-.info-mail:hover, .info-mail:focus {
+.info-ul:hover, .info-ul:focus {
     color: #404bbf;
 }
 
-.info-tel:hover, .info-tel:focus {
-    color: #404bbf;
-}
+
 
 .section-one {
     background-color: #2e2f42;
     color: #ffffff;
 
+}
+
+.title-sec-one {
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .section-one-button {
@@ -128,6 +114,18 @@ header {
     background-color: #ffffff;
 }
 
+.title-section-two-ul {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.par-section-two {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .section-three {
     background-color: #f4f4fd;
 }
@@ -135,10 +133,28 @@ header {
 .title-sec-three {
     color: #2e2f42;
     text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.list-sec-three {
+    background-color: #ffffff;
+}
+
+.title-sec-three {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.par-sec-three {
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
 .section-four {
-    background-color: #ffffff;
+    background-color: #f4f4fd;
 }
 
 .title-sec-four {
@@ -154,9 +170,8 @@ header {
     background-color: #e7e9fc;
 }
 
-.footer {
+.fotter {
     background-color: #2e2f42;
-    color: #ffffff;
 }
 
 .fot-logo {
