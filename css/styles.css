@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 2%;
     background-color: #ffffff;
     color: #434455;
@@ -13,7 +13,7 @@ a {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -22,7 +22,7 @@ h1 {
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 2%;
-    line-height: 60px;
+    line-height: 1.07;
 }
 
 h2 {
@@ -37,6 +37,14 @@ h3 {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 2%;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 header {
@@ -79,55 +87,62 @@ header {
 }
 
 .nav-studio:hover, .nav-studio:focus {
-    color: #404bff;
+    color: #404bbf;
 }
 .nav-portfolio:hover, .nav-portfolio:focus {
-    color: #404bff;
+    color: #404bbf;
 }
 .nav-contacts:hover, .nav-contacts:focus {
-    color: #404bff;
+    color: #404bbf;
 }
 
 .info {
     font-style: normal;
 }
 
-.info-mail:hover {
-    color: #404bff;
+.info-mail:hover, .info-mail:focus {
+    color: #404bbf;
 }
 
-.info-tel:hover {
-    color: #404bff;
+.info-tel:hover, .info-tel:focus {
+    color: #404bbf;
 }
 
-.section1 {
+.section-one {
     background-color: #2e2f42;
     color: #ffffff;
-    
+
 }
 
-.section1-button {
+.section-one-button {
     background-color: #4d5ae5;
     color: #ffffff;
+    cursor: pointer;
 }
 
-.section2 {
+.section-one-button:hover, .section-one-button:focus {
+    color: #404BBF;
+}
+
+.section-two {
     background-color: #ffffff;
 }
 
-.section3 {
+.section-three {
     background-color: #f4f4fd;
 }
 
-.title-sec3 {
+.title-sec-three {
+    color: #2e2f42;
     text-align: center;
 }
 
-.section4 {
+.section-four {
     background-color: #ffffff;
 }
 
-.title-sec4 {
+.title-sec-four {
+    color: #2e2f42;
     text-align: center;
 }
 
@@ -149,11 +164,16 @@ header {
         font-weight: bold;
         text-transform: uppercase;
         font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 3%;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         color: #4d5ae5;
 }
 
+.fot-par {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
 .fot-span-logo {
-    color: #2e2f42;
+    color: #f4f4fd;
 }
