@@ -160,14 +160,14 @@ header {
 .title-section-four {
     color: #2e2f42;
     text-align: center;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
 .list-title-four {
     line-height: 1.2;
-    letter-spacing: 0.02%;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
