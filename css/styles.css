@@ -107,7 +107,7 @@ header {
 }
 
 .section-one-button:hover, .section-one-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .section-two {
@@ -130,7 +130,7 @@ header {
     background-color: #f4f4fd;
 }
 
-.title-sec-three {
+.title-sec-threee {
     color: #2e2f42;
     text-align: center;
     line-height: 1.11;
@@ -157,9 +157,24 @@ header {
     background-color: #f4f4fd;
 }
 
-.title-sec-four {
+.title-section-four {
     color: #2e2f42;
     text-align: center;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.list-title-four {
+    line-height: 1.2;
+    letter-spacing: 0.02%;
+    color: #2e2f42;
+}
+
+.list-paragraph-four {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .card-person {
