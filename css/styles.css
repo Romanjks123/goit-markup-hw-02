@@ -10,6 +10,11 @@ body {
 
 a {
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
 }
 
 h1 {
@@ -43,8 +48,8 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #4d5ae5;
 
 }
@@ -66,25 +71,25 @@ header {
 }
 
 .info-mail {
-    color: #2e2f42;
+    color: #434455;
 }
 
 .info-tel {
-    color: #2e2f42;
+    color: #434455;
 }
 
-.nav-studio:hover {
+.nav-studio:hover, .nav-studio:focus {
     color: #404bff;
 }
-.nav-portfolio:hover {
+.nav-portfolio:hover, .nav-portfolio:focus {
     color: #404bff;
 }
-.nav-contacts:hover {
+.nav-contacts:hover, .nav-contacts:focus {
     color: #404bff;
 }
-.nav-studio:active {
-    color: #404bff;
-    text-decoration: underline;
+
+.info {
+    font-style: normal;
 }
 
 .info-mail:hover {
